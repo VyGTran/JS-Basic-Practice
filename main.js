@@ -14,11 +14,13 @@ console.log(name)
 
 console.groupEnd();
 // Exercise 3
+function operation() {
+const valNum1 = document.getElementById("num1");
+const valNum2 = document.getElementById("num2");
 console.groupCollapsed("Exercise 3")
-
-
 const a = (valNum2 * valNum1)
 console.log(a + ' is the area of a rectangle');
+}
 console.groupEnd();
 // Exercise 4
 console.groupCollapsed("Exercise 4")
