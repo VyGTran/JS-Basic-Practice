@@ -16,9 +16,8 @@ console.groupEnd();
 // Exercise 3
 console.groupCollapsed("Exercise 3")
 
-const l = 3
-const w = 5
-const a = (l * w)
+
+const a = (valNum2 * valNum1)
 console.log(a + ' is the area of a rectangle');
 console.groupEnd();
 // Exercise 4
