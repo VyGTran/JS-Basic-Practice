@@ -14,6 +14,7 @@ console.log(name)
 
 console.groupEnd();
 // Exercise 3
+console.groupCollapsed("Exercise 3")
 function operation() {
 const valNum1 = document.getElementById("num1");
 const valNum2 = document.getElementById("num2");
