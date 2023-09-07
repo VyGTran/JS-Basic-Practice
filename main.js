@@ -136,3 +136,22 @@ const valNum2 = document.getElementById("num2");
 const notNumber = valNum1 * valNum2;
 console.log(notNumber);
 console.groupEnd();
+
+// Exercise 12 
+console.groupCollapsed("Exercise 12")
+
+let foodItems = [
+    {name: 'Burger', price: 12.99},
+    {name: 'Pizza', price: 18.99},
+    {name: 'Taco', price: 15.99}
+];
+
+const foodList = document.getElementById('foodList');
+
+foodItems.forEach(food => {
+    const foodName = document.createElement('li');
+    foodName.textContent = food.name;
+
+    foodList.appendChild(foodName);
+});
+
